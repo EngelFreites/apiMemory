@@ -1,6 +1,7 @@
 const express = require('express')
 
 const api = express()
+const cors = require('cors') 
 
 api.get('/', (req, res) =>{
   res.send('hello world')
